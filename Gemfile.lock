@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/rails/activeresource.git
+  revision: b0260869aae5f44121d82cf349105d810cf41b2e
+  specs:
+    activeresource (5.1.0)
+      activemodel (>= 5.0, < 7)
+      activemodel-serializers-xml (~> 1.0)
+      activesupport (>= 5.0, < 7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,10 +46,6 @@ GEM
       activemodel (= 5.1.6.2)
       activesupport (= 5.1.6.2)
       arel (~> 8.0)
-    activeresource (5.1.0)
-      activemodel (>= 5.0, < 7)
-      activemodel-serializers-xml (~> 1.0)
-      activesupport (>= 5.0, < 7)
     activesupport (5.1.6.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
@@ -218,6 +223,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activeresource!
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
